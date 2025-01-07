@@ -1,0 +1,17 @@
+{
+  "name": "nim-test-dev",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "features": {
+    "ghcr.io/loag/slang-feature/slang:latest": {}
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "shader-slang.slang-language-extension",
+        "enkia.tokyo-night",
+        "ms-azuretools.vscode-docker",
+        "PKief.material-icon-theme"
+      ]
+    }
+  }
+}
